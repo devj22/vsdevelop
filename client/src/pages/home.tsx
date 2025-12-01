@@ -190,13 +190,15 @@ Email: info@vsdevelopers.com
                 </div>
                 <div className="flex items-center gap-3 mt-4">
                   <Download className="h-4 w-4 text-muted-foreground shrink-0" />
-                  <button
-                    onClick={handleDownload}
+                  <a
+                    href="https://drive.google.com/file/d/1Uwxr2T_Ld5xNb5dWQbLVXIzfXuc9xyg4/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-xs text-muted-foreground hover:text-foreground transition-colors"
-                    data-testid="button-footer-download"
+                    data-testid="link-footer-download-drive"
                   >
-                    Download Brochure
-                  </button>
+                    Download Now
+                  </a>
                 </div>
               </address>
             </div>
