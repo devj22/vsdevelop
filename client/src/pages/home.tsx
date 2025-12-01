@@ -163,19 +163,20 @@ Email: info@vsdevelopers.com
                 <div className="flex items-start gap-3">
                   <MapPin className="h-5 w-5 text-primary mt-0.5 shrink-0" />
                   <div data-testid="text-footer-address">
-                    <p>123 Luxury Avenue, Suite 500</p>
-                    <p>Beverly Hills, CA 90210</p>
-                    <p>United States</p>
+                    <p>VS DEVELOPERS</p>
+                    <p>A-503, Sterling Court</p>
+                    <p>Maheshwari Nagar, Andheri East</p>
+                    <p>Mumbai – 400093</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="h-5 w-5 text-primary shrink-0" />
                   <a
-                    href="tel:+13105551234"
+                    href="tel:9930801525"
                     className="hover:text-primary transition-colors"
                     data-testid="link-phone"
                   >
-                    (310) 555-1234
+                    9930801525
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
