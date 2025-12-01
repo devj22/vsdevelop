@@ -181,12 +181,22 @@ Email: info@vsdevelopers.com
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-primary shrink-0" />
                   <a
-                    href="mailto:info@premierproperties.com"
+                    href="mailto:info@vsdevelopers.com"
                     className="hover:text-primary transition-colors"
                     data-testid="link-email"
                   >
-                    info@premierproperties.com
+                    info@vsdevelopers.com
                   </a>
+                </div>
+                <div className="flex items-center gap-3 mt-4">
+                  <Download className="h-4 w-4 text-muted-foreground shrink-0" />
+                  <button
+                    onClick={handleDownload}
+                    className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+                    data-testid="button-footer-download"
+                  >
+                    Download Brochure
+                  </button>
                 </div>
               </address>
             </div>
@@ -194,7 +204,7 @@ Email: info@vsdevelopers.com
 
           <div className="mt-12 pt-8 border-t border-border/50 text-center">
             <p className="text-sm text-muted-foreground" data-testid="text-footer-copyright">
-              &copy; {new Date().getFullYear()} Premier Properties. All rights reserved.
+              &copy; {new Date().getFullYear()} VS Developers. All rights reserved.
             </p>
           </div>
         </div>
